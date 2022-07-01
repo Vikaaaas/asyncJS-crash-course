@@ -4,19 +4,23 @@
 // ];
 
 // function getPosts(){
+// 	console.log('getPosts')
 // 	setTimeout(()=>{
+// 		console.log('setTimeout getPosts')
 // 		let output='';
 // 		posts.forEach((post,index)=>{
 // 			output+=`<li>${post.title}</li>`;
 // 		})
 // 		document.body.innerHTML=output;
-// 	},1000);
+// 	},2000);
 // }
 
 // getPosts();
 
 // function createPost(post){
+// 	console.log('createPost')
 // 	setTimeout(()=>{
+// 		console.log('setTimeout createPost')
 // 		posts.push(post);
 // 	},1000);
 // }
